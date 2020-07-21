@@ -26,7 +26,7 @@ internal data class IgnoredUsersContent(
         /**
          * Required. The map of users to ignore. UserId -> empty object for future enhancement
          */
-        @Json(name = "ignored_users") val ignoredUsers: Map<String, JsonDict>
+        @Json(name = "ignored_users") val ignoredUsers: Map<String, Any>
 ) {
 
     companion object {
